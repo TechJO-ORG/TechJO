@@ -436,6 +436,14 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
+.contact-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  height: calc(100vh - 1em) !important;
+
+}
 
 .project-card {
   padding-top: 50px !important;

@@ -8,7 +8,9 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineMail
 } from "react-icons/ai";
+
 
 
 function NavBar() {
@@ -74,6 +76,18 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineMail
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Contact Us
               </Nav.Link>
             </Nav.Item>
 
