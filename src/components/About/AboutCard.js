@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import { Link } from "react-router-dom";
 
 function AboutCard() {
   return (
@@ -8,10 +9,10 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, we are{" "}
-            <span className="purple">TechJO </span>
-            from <span className="purple">Jordan</span>. We are a team of passionate
-            IT professionals dedicated to delivering top-notch solutions in various domains. Our expertise spans across{" "}
+            Welcome to <span className="purple">TechJO</span>, a dynamic startup
+            based in <span className="purple">Jordan</span>. We are a team of
+            passionate IT professionals dedicated to delivering innovative,
+            high-quality solutions across a wide range of domains, including{" "}
             <b className="purple">Web Development</b>,{" "}
             <b className="purple">E-commerce Solutions</b>,{" "}
             <b className="purple">Cloud Computing</b>,{" "}
@@ -21,13 +22,25 @@ function AboutCard() {
             <b className="purple">AI & Machine Learning</b>.
           </p>
           <p style={{ color: "rgb(155 126 172)" }}>
-            "We are committed to excellence and innovation in every project we undertake!"
+            "Empowering businesses and individuals with cutting-edge technology
+            solutions tailored to their needs."
           </p>
-          <footer className="blockquote-footer">TechJO Team</footer>
+          <footer className="blockquote-footer">The TechJO Team</footer>
           <p>
-            Feel free to connect with us on{" "}
-            <span className="purple">GitHub</span> or reach out via{" "}
-            <span className="purple">email</span> for any inquiries or collaborations.
+            Connect with us on{" "}
+            <a
+              href="https://github.com/MQA-Studio"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="purple"
+            >
+              GitHub
+            </a>{" "}
+            or reach out via our{" "}
+            <Link to="/contact" className="purple">
+              contact page
+            </Link>{" "}
+            for inquiries, collaborations, or to explore how we can bring your ideas to life!
           </p>
           <ul className="about-activity">
             <li className="about-activity-item">
