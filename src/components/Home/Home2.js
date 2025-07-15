@@ -15,15 +15,13 @@ function Home2() {
               Who's <span className="purple"> TechJO </span> Team?
             </h1>
             <p className="home-about-body">
-              We are a team of passionate IT professionals dedicated to
+              A team of passionate IT professionals dedicated to
               delivering top-notch solutions in various domains. Our expertise
               spans across <b className="purple">Web Development</b>,{" "}
               <b className="purple">E-commerce Solutions</b>,{" "}
               <b className="purple">Cloud Computing</b>,{" "}
-              <b className="purple">Cybersecurity</b>,{" "}
-              <b className="purple">Data Analytics</b>,{" "}
-              <b className="purple">Software Development</b>, and{" "}
-              <b className="purple">AI & Machine Learning</b>.
+              <b className="purple">Artificial Intelligence & Machine Learning</b>,{" "}
+              <b className="purple">Software Development</b>.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -41,7 +39,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/TechJO-ORG/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

@@ -9,10 +9,8 @@ function Type() {
           "Web Development",
           "E-commerce Solutions",
           "Cloud Computing",
-          "Cybersecurity",
-          "Data Analytics",
-          "Software Development",
-          "AI & Machine Learning",
+          "Artificial Intelligence & Machine Learning",
+          "Software Development"
         ],
         autoStart: true,
         loop: true,

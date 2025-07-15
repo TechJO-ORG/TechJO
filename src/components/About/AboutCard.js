@@ -10,7 +10,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Welcome to <span className="purple">TechJO</span>, a dynamic startup
-            based in <span className="purple">Jordan</span>. We are a team of
+            based in <span className="purple">Jordan</span>. {/*We are a team of
             passionate IT professionals dedicated to delivering innovative,
             high-quality solutions across a wide range of domains, including{" "}
             <b className="purple">Web Development</b>,{" "}
@@ -19,17 +19,13 @@ function AboutCard() {
             <b className="purple">Cybersecurity</b>,{" "}
             <b className="purple">Data Analytics</b>,{" "}
             <b className="purple">Software Development</b>, and{" "}
-            <b className="purple">AI & Machine Learning</b>.
+            <b className="purple">AI & Machine Learning</b>. */}
           </p>
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Empowering businesses and individuals with cutting-edge technology
-            solutions tailored to their needs."
-          </p>
-          <footer className="blockquote-footer">The TechJO Team</footer>
+
           <p>
             Connect with us on{" "}
             <a
-              href="https://github.com/MQA-Studio"
+              href="https://github.com/TechJO-ORG/"
               target="_blank"
               rel="noopener noreferrer"
               className="purple"
@@ -53,17 +49,12 @@ function AboutCard() {
               <ImPointRight /> Cloud Computing
             </li>
             <li className="about-activity-item">
-              <ImPointRight /> Cybersecurity
-            </li>
-            <li className="about-activity-item">
-              <ImPointRight /> Data Analytics
+              <ImPointRight /> Artificial Intelligence & Machine Learning
             </li>
             <li className="about-activity-item">
               <ImPointRight /> Software Development
             </li>
-            <li className="about-activity-item">
-              <ImPointRight /> AI & Machine Learning
-            </li>
+
           </ul>
         </blockquote>
       </Card.Body>
