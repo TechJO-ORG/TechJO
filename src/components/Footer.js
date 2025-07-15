@@ -20,7 +20,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com"
+                href="https://github.com/MQA-Studio"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

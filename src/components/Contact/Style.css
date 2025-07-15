@@ -1,0 +1,47 @@
+.description-white {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 768px) {
+  .project-card {
+    max-width: 600px;
+  }
+}
+
+.glass-card {
+  backdrop-filter: blur(12px);
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 8px 20px rgba(77, 140, 255, 0.2) !important;
+  animation: fadeInUp 0.8s ease-in-out;
+}
+
+.input-group-text.icon-span {
+  background-color: rgba(77, 140, 255, 0.1);
+  color: #4d8cff;
+  border: none;
+  border-radius: 8px 0 0 8px;
+  display: flex;
+  align-items: center;
+}
+
+input.form-control,
+textarea.form-control {
+  background-color: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 12px;
+  transition: 0.3s ease;
+  border-radius: 0 8px 8px 0;
+}
+
+input.form-control:focus,
+textarea.form-control:focus {
+  border-color: #4d8cff;
+  background-color: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 8px rgba(77, 140, 255, 0.4);
+  color: white;
+}
