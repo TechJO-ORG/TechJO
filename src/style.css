@@ -244,6 +244,7 @@ button:focus {
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
+  height: calc(100vh - 1em) !important;
 }
 
 .home-content {
@@ -389,6 +390,7 @@ button:focus {
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important;
+  height: 7vh;
 }
 
 .footer-copywright {
@@ -611,4 +613,3 @@ button:focus {
     transform: scale(1);
   }
 }
-
