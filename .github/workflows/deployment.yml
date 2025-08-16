@@ -31,7 +31,7 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
           script: |
-            mv /var/www/html/* /var/www/html/backup
+            mv /var/www/html/* /var/www/backup
             mkdir -p /var/www/html
             # copy build artifacts to server
             exit
@@ -52,6 +52,6 @@ jobs:
           key: ${{ secrets.SERVER_SSH_KEY }}
           script: |
             mv /var/www/html/build/* /var/www/html/
-            rm -rf /var/www/html/build
+            #rm -rf /var/www/html/build
             # copy build artifacts to server
             exit
