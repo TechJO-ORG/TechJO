@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main   # deploy only on push to main branch
+  pull_request:
+    branches:
+      - main   # also run when a PR targets main
 
 jobs:
   deploy:
